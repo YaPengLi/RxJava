@@ -49,7 +49,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             }
         });
-        print("输");
+
+        print(getTime()+"");
     }
     public void print(String str){
         System.out.print(str);
@@ -62,7 +63,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         mBtn.setOnClickListener(this);
     }
-
+    private long getTime(){
+        return System.currentTimeMillis();
+    }
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
