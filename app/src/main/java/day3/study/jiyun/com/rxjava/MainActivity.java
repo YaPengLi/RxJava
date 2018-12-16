@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-        print(getTime()+"");
     }
     public void print(String str){
         System.out.print(str);
