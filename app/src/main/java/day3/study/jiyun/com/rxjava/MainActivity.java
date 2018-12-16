@@ -49,6 +49,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             }
         });
+        print();
+    }
+    public void print(){
+        System.out.print("更改");
     }
     public void runThread(Runnable runnable){
         new Handler().post(runnable);
