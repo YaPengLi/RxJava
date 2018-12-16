@@ -37,19 +37,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         initView();
         //TODO 增加新功能
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
 
-            }
-        });
-        runThread(new Runnable() {
-            @Override
-            public void run() {
 
-            }
-        });
-
+       //暗示疗法
     }
     public void print(String str){
         System.out.print(str);
