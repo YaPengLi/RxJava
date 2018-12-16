@@ -36,6 +36,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
+        //TODO 增加新功能
+
+
+       //暗示疗法
     }
     public void print(String str){
         System.out.print(str);
