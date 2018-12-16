@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             }
         });
-        print("输出");
+        print("输");
     }
     public void print(String str){
         System.out.print(str);
